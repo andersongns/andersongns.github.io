@@ -1,3 +1,6 @@
+:root{
+    --color-blue: #1976d2;
+}
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +9,7 @@
 }
 
 body {
-    background: #1976d2;
+    background: var(--color-blue);
 }
 
 header {
@@ -31,4 +34,31 @@ header div a {
 header div a:hover {
     color: #50fa7b;
     transition: color 300ms;
+}
+#wrapper {
+    text-align: center;
+    padding: 35px 0;
+}
+
+#wrapper img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    border:  solid 1px ;
+}
+
+#wrapper h1 {
+    font-size: 42px;
+}
+
+#wrapper h2 {
+    font-size: 24px;
+}
+
+#wrapper #social {
+    font-size: 30px;
+}
+
+#social a {
+    color: black;
 }
