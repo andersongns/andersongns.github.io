@@ -1,6 +1,6 @@
 # andersongns.github.io
 
-Tentativa de criar uma home de apresentação.
+Apenas uma página com algumas informações sobre mim para colocar em praticar alguns conhecimentos de HTML, CSS e JavaScript
 
 ## Authors
 
@@ -8,4 +8,4 @@ Tentativa de criar uma home de apresentação.
 
 ## License
 
-E só copiar e colar, ta tudo certo.
+Livre para copiar e estudar.
