@@ -1,36 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anderson Santos</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap"
+        rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div>
-            <a id="actions" href="#sobre">Sobre</a>
-            <a id="actions" href="#repositorios">Repositorios</a>
-        </div>
-    </header>
     <main id="main">
-        <section id="sobre">
-            <img src="images/anderson_santos.png" alt="foto de perfil anderson santos" />
-            <h1>Anderson Santos</h1>
-            <h2>Programador</h2>
-            <p>JavaScript, Java, SQL</p>
-            <span id="social">
-                <a href="https://www.linkedin.com/in/andersongns/"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://www.instagram.com/andersongns_"><i class="fab fa-instagram"></i></a>
-                <a href="https://github.com/andersongns"><i class="fab fa-github"></i></a>
-                <a href="mailto:andersongns@outlook.com"><i class="far fa-envelope"></i></a>
-            </span>
-        </section>
-        <section id="repositorios">
+        <section>
+            <article class="card profile">
+                <img class="profile-image" id="profile-image" src="./images/anderson_santos.png" alt="Foto de perfil">
+                <h2 class="profile-name" id="profile-name">Anderson Santos</h2>
+                <h3 class="profile-description" id="profile-description">Software Developer</h3>
+            </article>
+            <article class="card contact">
+                <div><a href="https://goo.gl/maps/XVxieVmEyjvu8MjM8" target="_blank"><img class="icon" src="./assets/map-pin.svg" /></a> Brasil - Pernambuco - Recife</div>
+                <div><a href="https://www.linkedin.com/in/andersongns/" target="_blank"><img class="icon" src="./assets/linkedin.svg" /></a> andersongns</div>
+                <div><a href="https://github.com/andersongns" target="_blank"><img class="icon" src="./assets/github.svg" /></a> andersongns</div>
+                <div><img class="icon" src="./assets/mail.svg" /> anderson.santos@tuta.io</div>
+            </article>
+            <div class="card tecnologies">
+                <h2 class="card-title">Techs</h2>
+                <ol class="tech-list">
+                    <li class="chip">JavaScript</li>
+                    <li class="chip">Node.Js</li>
+                    <li class="chip">React</li>
+                    <li class="chip">React Native</li>
+                    <li class="chip">Git</li>
+                    <li class="chip">SQL</li>
+                    <li class="chip">NoSQL</li>
+                </ol>
+            </div>
+            <div class="card experience">
+                <h2 class="card-title">Experiências</h2>
+                <article>
+                    <h3>Banco Inter</h3>
+                    <p class="time-course">07/2021</p>
+                    <p class="techs">Android, Kotlin, MVVM</p>
+                </article>
+                <article>
+                    <h3>Concrete Solutions</h3>
+                    <p class="time-course">02/2020 - 07/2021</p>
+                    <p class="techs">JavaScript, TypeScript, Node.Js, Git, API Rest, Microservices, AWS</p>
+                </article>
+                
+                <article>
+                    <h3>MV Sistemas</h3>
+                    <p class="time-course">10/2015 - 01/2020</p>
+                    <p class="techs">JavaScript, Java, TypeScript, Node.Js, Tomcat, CVS, Git, Oracle, API SOAP, API Rest, Hibernate, SpringBoot</p>
+                </article>
+                
+                <article>
+                    <h3>GW Sistemas</h3>
+                    <p class="time-course">05/2015 - 09/2015</p>
+                    <p class="techs">JavaScript, Java, JSP, Tomcat, Tortoise SVN, PostgreSQL</p>
+                </article>
+                
+                <article>
+                    <h3>Netmake Soluções em Informática</h3>
+                    <p class="time-course">01/2014 - 07/2014</p>
+                    <p class="techs">JavaScript, PHP, XAMP, LAMP, MySQL, PostgreSQL, SQLServer</p>
+                </article>
+            </div>
         </section>
     </main>
-    <script src="./js/script.js"></script>
 </body>
+
 </html>
